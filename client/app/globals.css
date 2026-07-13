@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+
+  /* Clean Clinic palette (design.md) */
+  --color-ink: #0a0a0a;
+  --color-jet: #2e2e2e;
+  --color-mid: #9e9e9e;
+  --color-line: #e5e5e5;
+  --color-paper: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ink: var(--color-ink);
+  --color-jet: var(--color-jet);
+  --color-mid: var(--color-mid);
+  --color-line: var(--color-line);
+  --color-paper: var(--color-paper);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}

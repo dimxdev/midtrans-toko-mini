@@ -16,8 +16,6 @@ Generate transaction token → trigger popup pembayaran → handle notifikasi we
 
 <br />
 
-> Toko online sederhana (1–3 produk) yang sengaja dibikin minim fitur — nggak ada auth kompleks atau role admin berlapis — biar fokus penuh ke satu hal: **paham alur payment gateway sampai ke akar-akarnya.**
-
 ## Daftar Isi
 
 - [Tujuan Belajar](#tujuan-belajar)
@@ -194,6 +192,17 @@ Tema visual **Clean Clinic** — minimalis & monokrom, warna cuma dipakai buat i
 
 </div>
 
+Detail lengkap prinsip desain, typography, dan spec komponen ada di [`design.md`](./design.md).
 
+## Progress
 
-# midtrans-toko-mini
+Alur pengerjaan & checklist lengkap ada di [`task.md`](./task.md).
+
+<br />
+
+<div align="center">
+
+Dibikin buat belajar, bukan buat production 🌱
+
+</div>
+
